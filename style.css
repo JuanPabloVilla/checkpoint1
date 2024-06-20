@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout{
+    min-height: 100vh;
+}
+
+.containernavbar{
+    display: flex;
+    background-color: black;
+    height: 8vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    width: 20%;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.logo{
+    padding-left: 1rem;
+}
+
+.listnav{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.redletter{
+    color: red;
+}
+
+.travel{
+    width: 30%;
+    background-color: red;
+    border-radius: 6rem ;
+}
+
+.banner{
+    height: 15rem;
+    object-fit: cover;
+}
+
+.main{
+    flex-grow: 1;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: white;
+}
+
+.titles{
+    text-align: center;
+}
+.containermaincontent{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.imgmain{
+    width: 50%;
+    background-color: black;
+}
+
+
+.containermaintext{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+table{
+    color: white;
+    text-align: center;
+    background: black;
+    border-collapse: collapse;
+}
+
+tr, th, td{
+    border: solid 1px white;
+    border: collapse;
+}
+
+.ulcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    width: 26rem;
+    height: 8rem;
+    background-color: black;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
+.containerfooter{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+}
